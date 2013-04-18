@@ -1,0 +1,38 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-node-handler",
+  "desription": "Create Node.js request handler from Quiver.js HTTP handler",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/node-handler",
+  "repository": {
+    "url": "git@github.com:quiverjs/node-handler.git"
+  },
+  "dependencies": {
+    "quiver-node-stream": ">=0.0.1",
+    "quiver-pipe-stream": ">=0.0.1",
+    "quiver-stream-convert": ">=0.0.5"
+  },
+  "devDependencies": {
+    "quiver-error": ">=0.0.2",
+    "quiver-subrequest": ">=0.0.1",
+    "quiver-stream-channel": ">=0.0.8",
+    "mocha": "1.8.x",
+    "should": "1.2.x"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/node-handler/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/node-handler",
+  "scripts": {
+    "test": "make test"
+  }
+}
