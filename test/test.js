@@ -41,7 +41,7 @@ var testHttpHandler = function(requestHead, requestStreamable, callback) {
   }
 }
 
-startTestServer(nodeHandler.createQuiverToNodeHttpHandlerAdapter(testHttpHandler))
+startTestServer(nodeHandler.createNodeHttpHandlerAdapter(testHttpHandler))
 
 describe('node handler test', function() {
   it('get request test', function(callback) {
@@ -60,7 +60,7 @@ describe('node handler test', function() {
 
   it('post request test', function(callback) {
     var requestHead = {
-      host: 'localhost',
+      hostname: 'localhost',
       port: testPort,
       method: 'POST',
       path: '/post-path'
@@ -81,7 +81,7 @@ describe('node handler test', function() {
 
   it('other request test', function(callback) {
     var requestHead = {
-      host: 'localhost',
+      hostname: 'localhost',
       port: testPort,
       method: 'PUT',
       path: '/other-path'
