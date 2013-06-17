@@ -6,7 +6,7 @@
   },
   "name": "quiver-node-handler",
   "desription": "Create Node.js request handler from Quiver.js HTTP handler",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/quiverjs/node-handler",
   "repository": {
     "url": "git@github.com:quiverjs/node-handler.git"
@@ -14,7 +14,7 @@
   "dependencies": {
     "quiver-node-stream": ">=0.0.1",
     "quiver-pipe-stream": ">=0.0.1",
-    "quiver-stream-convert": ">=0.0.5"
+    "quiver-stream-convert": ">=0.0.8"
   },
   "devDependencies": {
     "quiver-error": ">=0.0.2",
